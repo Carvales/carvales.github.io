@@ -209,7 +209,8 @@ input, select, textarea {
 	br.clear {
 		clear: both;
 	}
-.mapouter{position:relative;text-align:right;height:250px;width:500px;}
+	iframe {width:100%;height:100%;}
+.mapouter{position:center;text-align:right;height:250px;width:500px;}
 
 .gmap_canvas {overflow:hidden;background:none!important;height:250px;width:500px;}
 .roundedImage{
