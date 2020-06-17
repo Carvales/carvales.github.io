@@ -155,7 +155,7 @@ input, select, textarea {
 	}
 
 	strong, b {
-		font-weight: 300;
+		font-weight: 400;
 		color: #666;
 	}
 
@@ -209,7 +209,9 @@ input, select, textarea {
 	br.clear {
 		clear: both;
 	}
+.mapouter{position:relative;text-align:right;height:250px;width:500px;}
 
+.gmap_canvas {overflow:hidden;background:none!important;height:250px;width:500px;}
 .roundedImage{
 			overflow:hidden;
 			-webkit-border-radius:125px;
@@ -1773,12 +1775,14 @@ input, select, textarea {
 		.image.avatar48 {
 			width: 48px;
 			height: 48px;
-			background: #f00;
+			background: #ffffff;
+			border-radius:5px;
 		}
 
 			.image.avatar48 img {
 				width: 48px;
 				height: 48px;
+				border-radius:5px;
 			}
 
 		.image.fit {
@@ -2048,7 +2052,7 @@ input, select, textarea {
 		}
 
 		#gauche {
-		    margin-right: 20px
+				margin-right: 100px
 		}
 
 
