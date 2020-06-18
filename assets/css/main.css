@@ -1786,7 +1786,7 @@ input, select, textarea {
 }
 
 .popup .content {
-  position:absolute;
+  position:sticky;
   top:50%;
   left:50%;
   transform:translate(-50%,-50%) scale(0);
@@ -2080,6 +2080,7 @@ button {
 	.item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
+		cursor: pointer;
 	}
 
 		.item header {
