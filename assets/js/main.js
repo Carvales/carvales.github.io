@@ -119,5 +119,8 @@
 					target: $body,
 					visibleClass: 'header-visible'
 				});
+function togglePopup(){
+  document.getElementById("popup-1").classList.toggle("active");
+}
 
 })(jQuery);
