@@ -1848,6 +1848,10 @@ button {
 			width: 100%;
 		}
 
+.center-div {
+     margin: 0 auto;
+     width: 400px;
+}
 		.image.avatar48 {
 			width: 48px;
 			height: 48px;
@@ -1872,6 +1876,16 @@ button {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
+
+		}
+		.image.featured2 {
+			display: block;
+			width: 100%;
+			margin: 0 0 2em 0;
+			border-radius: 15px;
+	    overflow: hidden;
+	    perspective: 1px;
+
 		}
 
 		.image.left {
